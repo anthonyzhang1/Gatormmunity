@@ -2,7 +2,7 @@
 
 /* For development on your local computer, use the path: "./config/development.env"
  * For deployment on the remote server, use the path: "./config/production.env" */
-require("dotenv").config({ path: "./config/development.env" });
+require("dotenv").config({ path: "./config/production.env" });
 
 const express = require("express");
 const path = require("path");
