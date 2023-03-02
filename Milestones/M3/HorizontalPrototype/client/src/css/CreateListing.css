@@ -1,0 +1,52 @@
+.create-listing-page .helpful-links-col {
+    width: 25vw;
+    padding: 2rem;
+    margin-left: 2rem;
+}
+
+.create-listing-page .form-col {
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.create-listing-page .form-div {
+    background-color: white;
+    width: 50vw;
+
+    border: 1px black solid;
+    border-radius: 10px;
+
+    padding: 1.5rem 3rem 3rem 3rem;
+    margin-bottom: 2rem;
+}
+
+.create-listing-page .create-listing-header {
+    text-align: center;
+}
+
+.create-listing-page .price-label {
+    padding-right: 0;
+}
+
+.create-listing-page .price-field-col {
+    padding-left: 10px;
+}
+
+.create-listing-page .price-field {
+    width: 8rem;
+}
+
+.create-listing-page .category-label {
+    padding-right: 0;
+}
+
+.create-listing-page .category-field {
+    width: 15rem;
+}
+
+.create-listing-page .create-button {
+    display: block;
+    margin: 2.5rem auto 0 auto; 
+    height: 2.7rem;
+    width: 6.5rem;
+}

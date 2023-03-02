@@ -1,0 +1,59 @@
+.groups-page {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    min-height: 85vh;
+    width: 80vw;
+
+    margin: 1rem auto 1rem auto;
+    padding: 0 2rem 1rem 2rem;
+}
+
+.groups-page .create-group-button {
+    min-height: 2.5rem;
+    width: 10rem;
+    display: block;
+    margin: 15px auto 25px auto;
+}
+
+.groups-page .group-container {
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 6px;
+    margin-bottom: 7px;
+}
+
+.groups-page .group-container:hover {
+    cursor: pointer;
+    background-color: rgb(245, 245, 248);
+}
+
+.groups-page .group-container .group-item {
+    display: flex;
+    text-align: justify;
+    flex-direction: row;
+    align-items: center;
+}
+
+.groups-page .group-container .group-item .group-picture {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.groups-page .group-container .group-item .group-name {
+    margin-left: 30px;
+    margin-top: 14px;
+}
+
+.groups-page .group-container .group-item .group-member-icon {
+    margin-right: 20px;
+}
+
+.groups-page .group-container .group-item .group-member-number {
+    margin-top: 14px;
+    margin-right: 20px;
+}

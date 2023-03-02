@@ -1,0 +1,51 @@
+/* CSS for the Help page. */
+.help-page * {
+    display: block;
+}
+
+/* Centers the sections and questions, somewhat */
+.help-page .section-title,
+.help-page .questions-group {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.help-page .section-title {
+    margin-top: 2%;
+}
+
+.help-page .question-link {
+    width: fit-content;
+    /* Stops the links from being clickable past the length of the question */
+    margin-top: 1%;
+    text-decoration: none;
+}
+
+/* CSS for the Help Answers pages. */
+.help-answer-page {
+    text-align: center;
+    padding-left: 17.5%;
+    padding-right: 17.5%;
+}
+
+/* CSS for the Helpful Links List component. */
+.helpful-links-list-component {
+    text-align: center;
+    background-color: white;
+
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
+}
+
+.helpful-links-list-component .helpful-links-header {
+    margin-top: 0.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.helpful-links-list-component .question-link {
+    display: block;
+    margin-bottom: 1rem;
+
+    text-decoration: none; /* Remove underlines from links */
+}

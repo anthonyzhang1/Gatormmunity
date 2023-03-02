@@ -1,0 +1,24 @@
+# MacOS DS_Store files
+.DS_Store
+
+# private credentials
+config.env
+development.env
+production.env
+/credentials
+
+# node deployment and dependency folders
+build
+node_modules
+
+# do not upload user uploads
+**/private/sfsu_id_pictures/*
+**/public/group_pictures/*
+**/public/listing_photos/*
+**/public/profile_pictures/*
+**/public/thread_images/*
+
+# do not ignore .gitkeep and the default photos
+!**/.gitkeep
+!**/defaultPhoto.png
+!**/tn-defaultPhoto.png

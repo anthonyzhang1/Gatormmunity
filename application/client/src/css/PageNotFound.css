@@ -1,0 +1,29 @@
+/* Contains the styling for the Page Not Found page. */
+
+.page-not-found-page {
+    text-align: center;
+    background-color: white;
+    min-width: min-content;
+    width: 40vw;
+    
+    margin: 22.5vh auto;
+    padding: 20px 40px 50px 40px;
+    border: 1px black solid;
+}
+
+.page-not-found-page .page-title {
+    font-weight: bold;
+}
+
+/* Make the white logo visible on the white background by inverting its color. */
+.page-not-found-page .logo {
+    cursor: pointer;
+    filter: grayscale(1) invert(1);
+}
+
+.page-not-found-page .home-button {
+    display: block;
+    margin: 30px auto auto auto;
+    height: 2.7rem;
+    width: 8rem;
+}

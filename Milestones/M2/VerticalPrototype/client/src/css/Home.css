@@ -1,0 +1,108 @@
+.home-page {
+	text-align: center;
+}
+
+/* The background color of the slogan a la medium.com */
+.home-page .slogan-div {
+	background-color: rgb(204, 194, 232);
+	border-bottom: black solid 1px;
+
+	/* Resize the background depending on the content in the div */
+	min-height: 22rem;
+	height: fit-content;
+}
+
+.home-page .slogan-image {
+	margin-top: 1.25%;
+	margin-bottom: 1.5%;
+}
+
+.home-page .slogan-body-text {
+	font-size: 28px;
+	margin-bottom: 2.25%;
+}
+
+.home-page .slogan-register-button {
+	background-color: rgb(48, 56, 164);
+	font-size: 20px;
+	padding: 0.5% 1.5% 0.5% 1.5%; /* Makes the button bigger */
+	border-radius: 15px; /* Rounds the button */
+	margin-bottom: 4rem;
+}
+
+/* Slightly darken the button on hover */
+.home-page .slogan-register-button:hover {
+	background-color: rgb(38, 44, 130);
+}
+
+.home-page .features-container-title {
+	font-size: 38px;
+	font-weight: bold;
+	padding: 4% 0% 3% 0%;
+}
+
+/* All of the feature rows/columns */
+.home-page .features-container {
+	width: 90%;
+}
+
+/* Styles each of the feature boxes, though it makes the boxes look too much like a button.
+ * We can bring this back if we want it */
+/* .home-page .features-box {
+	border: black 1px solid;
+} */
+
+/* The top row of the features */
+.home-page .features-row-1 {
+	height: 12rem;
+	padding-bottom: 0.5%; /* separate feature row 1 from feature row 2 */
+}
+
+/* The bottom row of the features */
+.home-page .features-row-2 {
+	height: 12rem;
+	width: 70%;
+	margin-left: 15%;
+	margin-bottom: 5%;
+}
+
+.home-page .feature-title {
+	font-size: 26px;
+	font-weight: bold;
+	padding-top: 1.5%;
+}
+
+.home-page .feature-body {
+	font-size: 20px;
+}
+
+/* Forums */
+.home-page .features-col-forums {
+	background: #d4c5d6;
+	margin-right: 0.25%;
+}
+
+/* Marketplace */
+.home-page .features-col-marketplace {
+	background: #cacad2;
+	margin-left: 0.25%;
+	margin-right: 0.25%;
+}
+
+/* Groups */
+.home-page .features-col-groups {
+	background: #ccdecc;
+	margin-left: 0.25%;
+}
+
+/* Gator Chat */
+.home-page .features-col-gator-chat {
+	background: #d3d1e8;
+	margin-right: 0.25rem;
+}
+
+/* Direct Messaging */
+.home-page .features-col-direct-messaging {
+	background: #e0c7cb;
+	margin-left: 0.25rem;
+}

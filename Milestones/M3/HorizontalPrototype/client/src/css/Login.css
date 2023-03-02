@@ -1,0 +1,43 @@
+.login-page {
+    background-color: white;
+    width: 40rem;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10% auto 10% auto;
+    padding: 10px 60px 10px 60px;
+}
+
+.login-page .login-button {
+    display: block;
+    margin: 50px auto 35px auto;
+    height: 2.7rem;
+    width: 6rem;
+}
+
+.login-page .forgot-password-link,
+.login-page .registration-link {
+    display: block;
+    text-align: center;
+}
+
+.forgot-password-modal {
+    max-width: none;
+    width: 40%;
+}
+
+.forgot-password-modal .modal-title {
+    margin-left: auto;
+    padding-left: 3%;
+}
+
+/* Styles the content inside the modal */
+.forgot-password-modal .modal-content {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 18px;
+}
+
+.forgot-password-modal .close-button {
+    display: block;
+    margin: 3% auto auto auto;
+}

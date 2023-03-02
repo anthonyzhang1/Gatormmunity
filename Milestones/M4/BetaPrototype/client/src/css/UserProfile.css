@@ -1,0 +1,119 @@
+.user-profile-page .user-col {
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.user-profile-page .profile-pic {
+    margin-bottom: 1rem;
+
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+.user-profile-page .name,
+.user-profile-page .role,
+.user-profile-page .join-date,
+.user-profile-page .user-id {
+    font-size: 20px;
+    margin-bottom: 7.5%;
+}
+
+.user-profile-page .name {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.user-profile-page button {
+    display: block;
+    margin: 12.5% auto auto auto;
+}
+
+.user-profile-page .edit-picture-col {
+    padding-top: 1.25rem;
+    padding-right: 0;
+    padding-left: 0.5rem;
+}
+
+.user-profile-page .edit-icon:hover {
+    cursor: pointer;
+}
+
+.user-profile-page .activity-table-div {
+    margin: 1% auto auto auto;
+    padding: 1% 1% 1% 1%;
+    width: 50vw;
+
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 10px;
+    min-height: 85vh;
+}
+
+.user-profile-page .table-title {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.user-profile-page .profile-activity-component {
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 1% 1% 1% 1%;
+    margin-top: 0.5%;
+}
+
+/* Shows that the row can be clicked on, and changes the background color of the hovered on row. */
+.user-profile-page .profile-activity-component:hover {
+    cursor: pointer;
+    background-color: rgb(245, 245, 248);
+}
+
+.user-profile-page .activity-text {
+    margin: 0;
+}
+
+/* Replaces the default link styling */
+.user-profile-page .activity-link {
+    text-decoration: none;
+    color: black;
+}
+
+/* Change Profile Picture Modal START */
+.change-profile-picture-modal {
+    max-width: none;
+    width: 35%;
+}
+
+.change-profile-picture-modal .modal-title {
+    margin-left: auto;
+    padding-left: 3%;
+}
+
+/* Styles the content inside the modal */
+.change-profile-picture-modal .modal-content {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 18px;
+}
+
+.change-profile-picture-modal .modal-body {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.change-profile-picture-modal .form-instructions {
+    margin-top: 1%;
+}
+
+.change-profile-picture-modal .buttons-div {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.change-profile-picture-modal .buttons-div * {
+    height: 2.5rem;
+    width: 6.5rem;
+}
+
+.change-profile-picture-modal .upload-button {
+    float: right;
+}
+/* Change Profile Picture Modal END */

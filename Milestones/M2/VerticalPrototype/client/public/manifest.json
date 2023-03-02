@@ -1,0 +1,8 @@
+{
+  "short_name": "Gatormmunity",
+  "name": "Gatormmunity CSC 648 Web App",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

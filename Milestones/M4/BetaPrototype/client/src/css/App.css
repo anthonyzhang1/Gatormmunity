@@ -1,0 +1,133 @@
+/* CSS for the entire web application. */
+
+.app {
+    /* Lets us use a fixed footer at the bottom of the page. */
+    position: relative;
+    min-height: 100vh;
+    padding-top: 55px; /* Stops content from being covered by the navbar */
+    padding-bottom: 40px; /* Stops content from being covered by the footer */
+
+    background-color: #E9E3EF;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 18px;
+}
+
+/* Buttons with this class will be this color. */
+.default-button-color {
+    background-color: #4A51AE;
+} .default-button-color:hover {
+    background-color: #2b3189;
+}
+
+/* Remove the spinner from our number inputs */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0;
+}
+
+/* Centers our page titles/headers */
+.page-title {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* =============== NAVBAR START ============== */
+.navbar-component {
+    background-color: #231161;
+    height: 55px;
+    width: 100%;
+
+    /* For a sticky header */
+    position: fixed;
+    top: 0;
+    z-index: 1; /* Stops things from overlapping the header. */
+}
+
+.navbar-component .navbar-container {
+    /* Keeps the icons off the edge of the screen in the navbar */
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+
+.navbar-component .navbar-logo {
+    cursor: pointer;
+}
+
+.navbar-component .navbar-text {
+    color: white;
+    margin-left: 1.25vw;
+    margin-right: 1.25vw;
+    font-size: 1.25vw;
+} .navbar-component .navbar-text:hover {
+    color: #70b7ff; /* Links will change to this color on hover */
+    cursor: pointer; /* Make the text seem like they can be clicked */
+}
+
+.navbar-component .navbar-right {
+    justify-content: flex-end;
+}
+
+.navbar-component .navbar-search-form {
+    display: flex;
+    min-width: fit-content;
+    width: 30vw;
+}
+
+.navbar-component .navbar-search-bar {
+    font-size: 1vw;
+}
+
+.navbar-component .search-button {
+    background-color: #6D8AC2;
+    border-radius: 10px;
+    width: 50px;
+    height: 40px;
+    
+    margin-left: 0.4rem;
+    padding: 0;
+}
+
+.navbar-component .profile-picture-dropdown {
+    margin-left: 2.5vw;
+    margin-right: 1.25vw;
+    cursor: pointer;
+}
+
+.navbar-component .login-button {
+    margin-left: 2.5vw;
+}
+
+/* =============== NAVBAR END ================ */
+
+/* =============== FOOTER START ============== */
+.footer-component * {
+    font-size: 20px;
+    color: white; /* text color */
+}
+
+.footer-component {
+    background-color: #231161;
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+    height: 40px;
+
+    /* makes the footer stay at the bottom of the page */
+    position: absolute; 
+    bottom: 0;
+}
+
+.footer-component .footer-link {
+    color: #e7e7ec; /* color of the links */
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.footer-component .footer-link:hover {
+    color: #70b7ff; /* links will change to this color on hover */
+    cursor: pointer;
+}
+
+/* =============== FOOTER END ================ */ 

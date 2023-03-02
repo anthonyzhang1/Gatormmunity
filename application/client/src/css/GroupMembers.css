@@ -1,0 +1,69 @@
+/* Contains the styling for the Group Members page, and its Group Member row component. */
+
+.group-members-page {
+    background-color: white;
+    min-height: 85vh;
+    min-width: min-content;
+    width: 75vw;
+    text-align: center;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 1rem auto 1rem auto;
+    padding: 0 2rem 1rem 2rem;
+}
+
+.group-members-page .page-title {
+    margin-bottom: 1.5rem;
+}
+
+.group-member-comp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 8px 20px 8px 20px;
+    margin-bottom: 8px;
+}
+
+.group-member-comp:hover {
+    cursor: pointer;
+    background-color: rgb(245, 245, 248);
+}
+
+.group-member-comp .left-side,
+.group-member-comp .right-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.group-member-comp .name {
+    margin: auto 20px auto 20px;
+}
+
+.group-member-comp button {
+    height: 100%;
+    width: 6vw;
+    min-width: min-content;
+}
+
+.group-member-comp .kick-button {
+    margin-right: 2.5rem;
+}
+
+.group-member-comp .promote-button {
+    margin-right: 3rem;
+    margin-left: -1.5rem;
+}
+
+.group-member-comp .demote-button {
+    margin-right: 2rem;
+}
+
+.group-member-comp .role {
+    font-weight: bold;
+    margin: auto;
+}

@@ -1,0 +1,35 @@
+/* Styling for the About Me pages. */
+
+.about-me-page * {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.about-me-page img {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    height: 25vh;
+    width: auto;
+}
+
+.about-me-page .role {
+    margin-top: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.about-me-page .description {
+    margin-bottom: 0.75rem;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.about-me-page .external-link {
+    width: fit-content;
+    font-size: 18px;
+    margin-bottom: 0.25rem;
+}
+
+.about-me-page .external-link:hover {
+    color: rgb(43, 43, 181);
+}

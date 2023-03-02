@@ -1,0 +1,161 @@
+.group-home-page {
+    background-color: white;
+    min-height: 90.5vh;
+}
+
+/* Left Column START */
+.group-home-page .left-col {
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.group-home-page .group-picture {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.group-home-page .admin-label {
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.group-home-page .admin-name {
+    color: #0d85fe;
+    width: fit-content;
+} .group-home-page .admin-name:hover {
+    cursor: pointer;
+    color: #0a58ca;
+}
+
+.group-home-page .members {
+    cursor: pointer;
+    width: fit-content;
+}
+
+.group-home-page .members-number {
+    display: inline;
+    margin-left: 1rem;
+}
+
+.group-home-page .top-buttons-div {
+    display: flex;
+    margin-top: 1.5rem;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.group-home-page .forums-button,
+.group-home-page .invite-button,
+.group-home-page .leave-group-button,
+.group-home-page .delete-group-button {
+    height: 2.7rem;
+    width: 7.5rem;
+}
+
+.group-home-page .leave-group-button,
+.group-home-page .delete-group-button {
+    display: block;
+    min-width: fit-content;
+    width: 10rem;
+    margin: 2vw auto;
+}
+/* Left Column END */
+
+/* Right Column START */
+.group-home-page .group-name,
+.group-home-page .announcement-header {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.group-home-page .edit-icon {
+    cursor: pointer;
+    margin-left: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.group-home-page .group-description,
+.group-home-page .announcement-body {
+    white-space: pre-line;
+    margin-top: 1.25rem;
+    padding: 0 5rem 0 5rem;
+}
+/* Right Column END */
+
+/* Invite Modal START */
+.group-invite-modal {
+    max-width: none;
+    width: 35%;
+}
+
+.group-invite-modal .modal-title {
+    margin-left: auto;
+    padding-left: 3%;
+}
+
+/* Styles the content inside the modal */
+.group-invite-modal .modal-content {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 18px;
+}
+
+.group-invite-modal .modal-body {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.group-invite-modal .form-instructions {
+    margin-top: 1%;
+}
+
+.group-invite-modal .buttons-div {
+    margin-top: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.group-invite-modal .buttons-div * {
+    height: 2.5rem;
+    width: 6.5rem;
+}
+
+.group-invite-modal .invite-button {
+    float: right;
+}
+/* Invite Modal END */
+
+/* Change Announcement Modal START */
+.group-change-announcement-modal {
+    max-width: none;
+    width: 55%;
+}
+
+.group-change-announcement-modal .modal-title {
+    margin-left: auto;
+    padding-left: 3%;
+}
+
+/* Styles the content inside the modal */
+.group-change-announcement-modal .modal-content {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 18px;
+}
+
+.group-change-announcement-modal .modal-body {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.group-change-announcement-modal .buttons-div {
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+.group-change-announcement-modal .buttons-div * {
+    height: 2.5rem;
+    width: 6.5rem;
+}
+
+.group-change-announcement-modal .change-button {
+    float: right;
+}
+/*  Change Announcement Modal END */

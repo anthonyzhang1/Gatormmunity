@@ -1,0 +1,32 @@
+.create-group-page .helpful-links-col {
+    width: 25vw;
+    padding: 2rem;
+    margin-left: 1.5rem;
+}
+
+.create-group-page .form-col {
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.create-group-page .form-div {
+    background-color: white;
+    width: 50vw;
+
+    border: 1px black solid;
+    border-radius: 10px;
+
+    padding: 1.5rem 3rem 2.5rem 3rem;
+    margin-bottom: 2rem;
+}
+
+.create-group-page .create-group-header {
+    text-align: center;
+}
+
+.create-group-page .create-button {
+    display: block;
+    margin: 3rem auto 0.5rem auto;
+    height: 2.7rem;
+    width: 6.5rem;
+}

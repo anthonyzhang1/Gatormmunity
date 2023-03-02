@@ -1,0 +1,26 @@
+/* CSS for the team home page. */
+
+.team-home-page-page * {
+    text-align: center;
+    margin: auto;
+}
+
+.team-home-page-page h1 {
+    margin-top: 2rem;
+}
+
+.team-home-page-page .about-me-link {
+    display: block;
+    border: solid 2px rgb(51, 84, 136);
+    
+    min-width: fit-content;
+    width: 15rem;
+    margin-top: 2.25rem;
+    
+    color: black;
+}
+
+.team-home-page-page .about-me-link:hover {
+    background-color: white;
+    color: black;
+}

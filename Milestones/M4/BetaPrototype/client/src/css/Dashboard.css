@@ -1,0 +1,69 @@
+.dashboard-page {
+    text-align: center;
+}
+
+.dashboard-page .welcome-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 30px;
+}
+
+.dashboard-page .slogan-body-text {
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.dashboard-page .lists-container {
+    display: flex;
+    gap: 50px;
+}
+
+.dashboard-page .list {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0 10px 10px 10px;
+    width: 40vw;
+    margin-bottom: 2rem;
+}
+
+.dashboard-page .list-title {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.dashboard-thread-component,
+.dashboard-listing-component {
+    display: flex;
+    text-align: left;
+    overflow: hidden;
+    justify-content: space-between;
+    
+    margin-top: 10px;
+    padding: 10px 10px 0 10px;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+
+/* Shows that the row can be clicked on, and changes the background color of the hovered on row. */
+.dashboard-thread-component:hover,
+.dashboard-listing-component:hover {
+    cursor: pointer;
+    background-color: rgb(245, 245, 248);
+}
+
+.dashboard-thread-component .title,
+.dashboard-listing-component .name,
+.dashboard-listing-component .price {
+    margin-bottom: 10px;
+}
+
+/* Replaces the default link styling */
+.dashboard-thread-component .link {
+    text-decoration: none;
+    color: black;
+}

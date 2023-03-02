@@ -1,0 +1,58 @@
+/* Styling for the Administration page, and its Unapproved User Row component. */
+
+.admin-page {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    min-height: 85vh;
+    min-width: fit-content;
+    width: 90vw;
+
+    margin: 1rem auto 1rem auto;
+    padding: 0.5rem 2rem 1rem 2rem;
+}
+
+.admin-page .admin-tabs {
+    margin-top: 0.75rem;
+}
+
+.admin-page .form-header {
+    font-size: 20px;
+}
+
+.admin-page .text-bar {
+    min-width: 25rem;
+    max-width: 30%;
+}
+
+.unapproved-user-row-comp {
+    border: 1px solid black;
+    border-radius: 10px;
+
+    margin: 0 0 10px 0;
+    padding: 15px 10px 15px 10px;
+}
+
+.unapproved-user-row-comp img,
+.unapproved-user-row-comp p {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.unapproved-user-row-comp img {
+    cursor: pointer;
+}
+
+.unapproved-user-row-comp button {
+    margin: 1.5rem 1rem auto auto;
+    height: 3rem;
+    width: 9rem;
+}
+
+.unapproved-user-row-comp .reject-button {
+    background-color: rgb(143, 32, 32);
+}
+
+.unapproved-user-row-comp .reject-button:hover {
+    background-color: rgb(86, 31, 31);
+}

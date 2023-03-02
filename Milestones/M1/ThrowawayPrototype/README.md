@@ -1,0 +1,1 @@
+## This folder will have all your code for your throwaway prototype. The throwaway prototype is built to test the technology stack that the team has chosen for the project. After M1, this prototype can be reused and integrated into your application. 

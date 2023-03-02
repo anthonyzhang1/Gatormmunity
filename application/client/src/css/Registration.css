@@ -1,0 +1,45 @@
+/* Contains the styling for the Registration page. */
+
+.registration-page {
+    background-color: white;
+    min-width: min-content;
+    width: 50vw;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 2rem auto 2rem auto;
+    padding: 0 2vw 20px 2vw;
+}
+
+/* The border will be handled by the eye-container div. */
+.registration-page .password-field {
+    border-right: 0;
+}
+
+.registration-page .eye-container {
+    border: 1px solid #ced4da;
+    border-left: 0;
+    border-radius: 0.375rem;
+    height: 40px;
+
+    cursor: pointer;
+}
+
+.registration-page .eye-icon {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding: 8px 0px 8px 0px;
+}
+
+.registration-page .register-button {
+    display: block;
+    margin: 20px auto;
+    height: 2.7rem;
+    width: 7rem;
+}
+
+.registration-page .login-link {
+    display: block;
+    text-align: center;
+    margin: 30px auto 0px auto;
+}

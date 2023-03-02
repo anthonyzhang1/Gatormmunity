@@ -1,0 +1,105 @@
+.view-thread-page {
+    padding: 20px 40px 10px 40px;
+}
+
+.view-thread-page .thread-links {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.view-thread-page .back-link {
+    text-decoration: none;
+}
+
+.view-thread-page .delete-thread {
+    float: right;
+    color: red;
+}
+
+.view-thread-page .delete-thread:hover {
+    cursor: pointer;
+    color: rgb(182, 0, 0);
+}
+
+.view-thread-page .page-title {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.forum-post-row-comp {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+
+    margin: 10px 0 5px 0;
+    padding: 15px 20px 0px 20px;
+}
+
+.forum-post-row-comp .top-part {
+    display: flex;
+    flex-direction: row;
+}
+
+.forum-post-row-comp .author-thumbnail-name {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    cursor: pointer;
+    gap: 20px;
+}
+
+.forum-post-row-comp .author-name {
+    font-weight: bold;
+}
+
+.forum-post-row-comp .top-right-div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-left: auto;
+    gap: 30px;
+}
+
+.forum-post-row-comp .delete-post {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+.forum-post-row-comp .delete-post:hover {
+    cursor: pointer;
+    color: rgb(182, 0, 0);
+}
+
+.forum-post-row-comp .post-body {
+    margin-top: 10px;
+    white-space: pre-line;
+}
+
+.forum-post-row-comp .post-thumbnail-filename {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin: 15px 0px 15px 0px;
+    gap: 20px;
+}
+
+.forum-post-row-comp .post-thumbnail:hover {
+    cursor: pointer;
+}
+
+.view-thread-page .make-post-form {
+    display: flex;
+    gap: 5px;
+    padding-top: 10px;
+}
+
+.view-thread-page .make-post-group {
+    width: 100%
+}
+
+.view-thread-page .post-button {
+    min-width: fit-content;
+    width: 4%;
+}

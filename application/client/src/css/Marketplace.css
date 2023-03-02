@@ -1,0 +1,80 @@
+/* Contains the styling for the Marketplace page and the listing card component. */
+
+.marketplace-page {
+    background-color: white;
+}
+
+.marketplace-page .filters-col {
+    min-height: 90.5vh;
+    min-width: min-content;
+    width: 17vw;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-right: 1px solid black;
+}
+
+.marketplace-page .filters-header {
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.marketplace-page .max-price {
+    min-width: 5rem;
+    width: 50%;
+}
+
+.marketplace-page .apply-button {
+    display: block;
+    margin: 50px auto;
+    height: 2.5rem;
+    width: 6rem;
+}
+
+.marketplace-page .listings-col {
+    text-align: center;
+    padding-left: 1.5vw;
+}
+
+.marketplace-page .listings-header {
+    margin-top: 1.5rem;
+}
+
+.marketplace-page .create-button {
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+    height: 2.5rem;
+    width: 10rem;
+}
+
+.listing-card {
+    margin-bottom: 1.5rem;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    width: 17vw;
+
+    /* Disallow very long cards. Clip the card's content if it is excessively long. */
+    max-height: 20rem;
+    overflow: hidden;
+}
+
+.listing-card:hover {
+    cursor: pointer;
+    background-color: rgb(245, 245, 248);
+}
+
+.listing-card .listing-image {
+    width: 60%;
+    max-width: 60%;
+    height: auto;
+    max-height: 50%;
+
+    padding-top: 10px;
+    margin: auto;
+}
+
+.listing-card .listing-name {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}

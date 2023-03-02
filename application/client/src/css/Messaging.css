@@ -1,0 +1,153 @@
+/* Contains the styling for the Chat and Inbox pages, and styling for the multiple chat and inbox components. */
+
+.chat-inbox-page {
+    background-color: white;
+    text-align: center;
+}
+
+.chat-inbox-page .top-row,
+.chat-inbox-page .bottom-row,
+.chat-inbox-page .top-left-col,
+.chat-inbox-page .top-right-col,
+.chat-inbox-page .bottom-left-col,
+.chat-inbox-page .bottom-right-col {
+    margin: 0;
+    padding: 0;
+}
+
+.chat-inbox-page .top-row {
+    border-bottom: 1px solid black;
+}
+
+.chat-inbox-page .top-left-col * {
+    margin: 0;
+}
+
+.chat-inbox-page .top-left-col {
+    padding: 0.75rem 0;
+}
+
+.chat-inbox-page .top-right-col {
+    border-left: 1px solid black;
+}
+
+.chat-inbox-page .bottom-right-col {
+    height: 85vh;
+    border-left: 1px solid black;
+
+    /* Scrollable view */
+    overflow: auto;
+    display: flex;
+    flex-direction: column-reverse;
+
+    padding: 20px 20px 70px 20px;
+}
+
+.chat-inbox-page .send-message-form {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+
+    background-color: white;
+    bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.chat-inbox-page .send-message-group {
+    min-height: 60px;
+    width: 72vw;
+}
+
+.current-chat-comp,
+.current-user-comp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Only show pointer cursor on things that can actually be clicked, i.e., not Gator Chat. */
+.current-chat-comp .is-group-chat,
+.current-user-comp .picture,
+.current-user-comp .name {
+    cursor: pointer;
+}
+
+.current-chat-comp .picture,
+.current-user-comp .picture {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.current-chat-comp .name,
+.current-user-comp .name {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+/* The conversations in the bottom left column. */
+.conversation-comp {
+    /* Overrides default react bootstrap styling */
+    --bs-nav-pills-link-active-bg: #e6e5e5;
+    --bs-nav-pills-link-active-color: black;
+    --bs-nav-pills-border-radius: 0;
+
+    border-bottom: 1px solid black;
+}
+
+.conversation-comp .conversation-tab {
+    display: flex;
+    flex-direction: row;
+}
+
+.conversation-comp .picture {
+    margin-left: 10px;
+}
+
+.conversation-comp .name {
+    color: black;
+    margin: 10px 0 0 15px;
+}
+
+/* The messages in the bottom right column. */
+.chat-inbox-message-comp .author {
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.chat-inbox-message-comp .message-header-left,
+.chat-inbox-message-comp .message-header-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 2rem;
+}
+
+.chat-inbox-message-comp .message-header-right {
+    justify-content: flex-end;
+}
+
+.chat-inbox-message-comp .message-container-left,
+.chat-inbox-message-comp .message-container-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    overflow-wrap: break-word;
+    white-space: pre-line;
+}
+
+.chat-inbox-message-comp .message-container-right {
+    justify-content: flex-end;
+}
+
+.chat-inbox-message-comp .content {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+
+    /* Width of the white box. Will be the size of the text, and at most the `max-width` value. */
+    width: fit-content;
+    max-width: 60%;
+}

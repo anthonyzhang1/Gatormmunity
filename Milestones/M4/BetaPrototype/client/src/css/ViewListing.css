@@ -1,0 +1,73 @@
+.view-listing-page .helpful-links-col {
+    width: 25vw;
+    padding: 2rem;
+    margin-left: 2rem;
+}
+
+.view-listing-page .listing-col {
+    padding-top: 2rem;
+    padding-left: 2.5rem;
+}
+
+.view-listing-page .listing-div {
+    background-color: white;
+    width: 50vw;
+
+    border: 1px black solid;
+    border-radius: 10px;
+
+    padding: 1.5rem 3rem 3rem 3rem;
+    margin-bottom: 2rem;
+}
+
+.view-listing-page .listing-header {
+    text-align: center;
+}
+
+.view-listing-page .listing-image {
+    display: block;
+    margin: 1.5rem auto 1.5rem auto;
+    cursor: pointer;
+}
+
+.view-listing-page .description {
+    text-align: center;
+}
+
+.view-listing-page .price {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.view-listing-page .seller-div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.view-listing-page .seller {
+    width: fit-content;
+    color: #0d85fe;
+} .view-listing-page .seller:hover {
+    cursor: pointer;
+    color: #0a58ca;
+}
+
+.view-listing-page .buttons-div {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.view-listing-page button {
+    height: 2.7rem;
+}
+
+.view-listing-page .back-button {
+    margin: auto auto auto 0;
+}
+
+.view-listing-page .message-seller-button {
+    width: 10rem;
+    margin: auto 0 auto auto;
+}

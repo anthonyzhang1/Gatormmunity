@@ -1,0 +1,83 @@
+/* Contains the styling for the View Listing page. */
+
+.view-listing-page .helpful-links-col {
+    min-width: min-content;
+    width: 22.5vw;
+    margin-top: 2.5vh;
+    margin-left: 1vw;
+}
+
+.view-listing-page .listing-col {
+    margin-top: 2.5vh;
+    margin-left: 1vw;
+}
+
+.view-listing-page .listing-div {
+    background-color: white;
+    min-width: fit-content;
+    width: 55vw;
+
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 1.5rem 3vw 3rem 3vw;
+    margin-bottom: 2rem;
+}
+
+.view-listing-page .listing-header {
+    text-align: center;
+}
+
+.view-listing-page .listing-image {
+    display: block;
+    cursor: pointer;
+    width: auto;
+    max-width: 60%;
+    max-height: 50%;
+    margin: 1.5rem auto 1.5rem auto;
+}
+
+.view-listing-page .description {
+    text-align: center;
+    white-space: pre-line;
+}
+
+.view-listing-page .price {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.view-listing-page .seller-div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.view-listing-page .seller {
+    width: fit-content;
+    color: #0d85fe;
+}
+
+.view-listing-page .seller:hover {
+    cursor: pointer;
+    color: #0a58ca;
+}
+
+.view-listing-page .buttons-div {
+    display: flex;
+    margin-top: 2rem;
+    gap: 1vw;
+    white-space: nowrap;
+}
+
+.view-listing-page button {
+    height: 2.7rem;
+}
+
+.view-listing-page .back-button {
+    margin: auto auto auto 0;
+}
+
+.view-listing-page .message-seller-button {
+    margin: auto 0 auto auto;
+}

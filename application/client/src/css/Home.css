@@ -1,0 +1,94 @@
+/* Contains the styling for the Home page. */
+
+.home-page {
+    text-align: center;
+}
+
+.home-page .slogan-div {
+    background-color: #CCC2E8;
+    border-bottom: black solid 1px;
+
+    /* Resize the background depending on the content in the div */
+    min-height: 22rem;
+    height: fit-content;
+}
+
+.home-page .slogan-image {
+    margin-top: 1.25%;
+    margin-bottom: 1.5%;
+    max-width: 100%;
+}
+
+.home-page .slogan-body-text {
+    font-size: 28px;
+    margin-bottom: 2.25%;
+}
+
+.home-page .slogan-register-button {
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 1vh 1.5vw 1vh 1.5vw;
+    margin-bottom: 4rem;
+}
+
+.home-page .features-container-title {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 3rem 0 3rem 0;
+}
+
+/* All of the feature rows/columns */
+.home-page .features-container {
+    width: 95%;
+}
+
+.home-page .features-box {
+    background: white;
+
+    border: black 1px solid;
+    border-radius: 10px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+/* The top row of the features */
+.home-page .features-row-1 {
+    min-height: fit-content;
+    margin-bottom: 2vmin;
+}
+
+/* The bottom row of the features */
+.home-page .features-row-2 {
+    height: fit-content;
+    width: 66vw;
+    margin: auto auto 7.5vmin auto;
+}
+
+.home-page .feature-title {
+    font-weight: bold;
+    margin-top: 2.5%;
+}
+
+.home-page .feature-body {
+    font-size: 20px;
+}
+
+/* Forums */
+.home-page .features-col-forums {
+    margin-right: 1.75vmin;
+}
+
+/* Groups */
+.home-page .features-col-groups {
+    margin-left: 1.75vmin;
+}
+
+/* Gator Chat */
+.home-page .features-col-gator-chat {
+    margin-right: 1vmin;
+}
+
+/* Direct Messaging */
+.home-page .features-col-direct-messaging {
+    margin-left: 0.75vmin;
+}

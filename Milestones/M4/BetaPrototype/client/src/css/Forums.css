@@ -1,0 +1,74 @@
+.forums-page {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    min-height: 85vh;
+    width: 85vw;
+
+    margin: 1rem auto 1rem auto;
+    padding: 0.5rem 2rem 1rem 2rem;
+}
+
+.forums-page .category-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.forums-page .category-filter-group {
+    display: flex;
+    align-items: center;
+}
+
+.forums-page .form-select {
+    width: 200px;
+    margin-left: 15px;
+}
+
+.forums-page .create-thread-button {
+    min-height: 2.5rem;
+    width: 10rem;
+    margin-right: 290px;
+}
+
+.forum-thread-row-component {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+
+    margin: 0px 40px 10px 40px;
+    padding: 15px 40px 10px 40px;
+}
+
+.forum-thread-row-component:hover {
+    cursor: pointer;
+    background-color: rgb(245, 245, 248);
+}
+
+.forum-thread-row-component .thread-category {
+    margin-bottom: 0.75rem;
+}
+
+.forum-thread-row-component .bottom-div,
+.forum-thread-row-component .bottom-div * {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 0;
+    margin: 0;
+}
+
+.forum-thread-row-component .bottom-div {
+    margin-bottom: 0.5rem;
+}
+
+.forum-thread-row-component .thread-date {
+    margin-right: 3rem;
+}
+
+.forum-thread-row-component .thread-posts-number {
+    margin-left: 10px;
+}

@@ -1,0 +1,61 @@
+/* Contains the styling for the Help page, and its components like the Helpful Links list. */
+
+.help-page * {
+    display: block;
+}
+
+/* Centers the sections and questions. */
+.help-page .section-title,
+.help-page .questions-group {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.help-page .section-title {
+    margin-top: 2%;
+}
+
+.help-page .question-link {
+    /* Stops the links from being clickable past the length of the question */
+    width: fit-content;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Styling for the Help Answers pages. */
+.help-answer-page {
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.help-answer-page .section {
+    margin-top: 2.5%;
+}
+
+.help-answer-page .answer {
+    text-align: left;
+}
+
+/* Styling for the Helpful Links List component. */
+.helpful-links-list-component {
+    text-align: center;
+    background-color: white;
+
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 1.5vh 1.5vw 1.5vh 1.5vw;
+}
+
+.helpful-links-list-component .helpful-links-header {
+    margin-top: 0.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.helpful-links-list-component .question-link {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}

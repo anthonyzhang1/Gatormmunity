@@ -1,0 +1,19 @@
+/** Contains the styling that affects the privacy policy page and the terms of service page. */
+
+.terms-of-service-page,
+.privacy-policy-page {
+    background: white;
+    min-width: min-content;
+    width: 80%;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 1rem auto 1rem auto;
+    padding: 0 2vw 0 2vw;
+}
+
+/* Stops the paragraphs from being so close together. */
+.terms-of-service-page h3,
+.privacy-policy-page h3 {
+    margin-top: 2rem;
+}

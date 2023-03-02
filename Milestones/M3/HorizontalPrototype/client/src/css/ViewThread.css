@@ -1,0 +1,74 @@
+.view-thread-page {
+    padding-bottom: 110px;
+}
+
+.view-thread-page .page-title {
+    text-align: left;
+    margin-left: 2.6rem;
+    margin-bottom: 10px;
+}
+
+.forum-post-row-comp {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+
+    margin: 0px 40px 5px 40px;
+    padding: 15px 20px 0px 20px;
+}
+
+.forum-post-row-comp .top-part {
+    display: flex;
+    flex-direction: row;
+}
+
+.forum-post-row-comp .author-thumbnail-name {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    cursor: pointer;
+    gap: 20px;
+}
+
+.forum-post-row-comp .author-name {
+    font-weight: bold;
+}
+
+.forum-post-row-comp .date {
+    margin-left: auto;
+}
+
+.forum-post-row-comp .post-body {
+    margin-top: 10px;
+    white-space: pre-line;
+}
+
+.forum-post-row-comp .post-thumbnail-filename {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin: 15px 0px 15px 0px;
+    gap: 20px;
+}
+
+.forum-post-row-comp .post-thumbnail:hover {
+    cursor: pointer;
+}
+
+.view-thread-page .make-post-form {
+    background-color: #E9E3EF;
+    display: flex;
+    justify-content: space-between;
+
+    position: absolute;
+    bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.view-thread-page .make-post-group {
+    margin-left: 40px;
+    padding-right: 10px;
+    width: 92vw;
+}

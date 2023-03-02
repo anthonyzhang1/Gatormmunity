@@ -1,0 +1,190 @@
+/* CSS for the entire web application. */
+
+.app {
+    /* Lets us use a fixed footer at the bottom of the page. We can remove this if it causes problems. */
+    position: relative;
+    min-height: 100vh;
+    padding-top: 55px; /* Stops content from being covered by the navbar */
+    padding-bottom: 55px; /* Stops content from being covered by the footer */
+}
+
+/* Buttons with this class will be this color.
+ * Not being used because the default blue is quite nice, though we can add this later if we need it. */
+/* .default-button-color {
+    background-color: green;
+} */
+
+/* Remove the spinner from our number inputs */
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+/* =============== NAVBAR START ============== */
+.navbar-component * {
+    display: flex;
+}
+
+.navbar-component {
+    background-color: #231161;
+    height: 55px;
+    width: 100%;
+
+    /* For a sticky header */
+    position: fixed;
+    top: 0;
+}
+
+.navbar-component .navbar-container {
+    width: 98%; /* Keeps the icons off the edge of the screen in the navbar */
+}
+
+.navbar-component .navbar-logo {
+    /* Make the logo more visible on our navbar */
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
+}
+
+.navbar-component .navbar-text {
+    color: white;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    font-size: 20px;
+}
+
+.navbar-component .navbar-text:hover {
+    cursor: pointer; /* Make the text seem like they can be clicked */
+}
+
+.navbar-component .navbar-search-form {
+    width: 60%;
+}
+
+.navbar-component .navbar-search-bar {
+    min-width: fit-content;
+    width: 70%;
+}
+
+.navbar-component .navbar-search-select {
+    min-width: fit-content;
+    width: 30%;
+}
+
+.navbar-component .navbar-profile-picture {
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+}
+
+/* =============== NAVBAR END ================ */
+
+/* =============== LOGIN MODAL START ================ */
+.login-modal-component .forgot-password {
+    display: block;
+    width: fit-content; /* make the link only clickable on the text */
+    text-decoration: none; /* removes default link appearance */
+}
+
+.login-modal-component .login-button {
+    float: right; /* have the login button be on the right */
+}
+
+/* =============== LOGIN MODAL END ================== */
+
+/* =============== REGISTER MODAL START ================ */
+.register-modal-component {
+    max-width: none; /* needed because react bootstrap has a default max width */
+    width: 35%;
+}
+
+.register-modal-component .register-button {
+    float: right; /* have the register button be on the right */
+}
+
+/* =============== REGISTER MODAL END ================== */
+
+/* =============== SEARCH RESULTS MODAL START ================ */
+.search-results-modal-component {
+    max-width: none; /* needed because react bootstrap has a default max width */
+    width: 55rem;
+    font-size: 20px;
+}
+
+.search-results-modal-component .search-message {
+    padding-bottom: 3%; /* Adds some space below the search notification/message */
+}
+
+/* Add a line between each user row */
+.search-results-modal-component .search-user-row-component {
+    margin-bottom: 2%;
+    padding-top: 2%;
+    border-top: black 1px solid;
+}
+
+.search-results-modal-component .profile-picture-col {
+    padding-left: 0;
+}
+
+
+.search-results-modal-component .thumbnail-name-row {
+    height: 30%; /* Set the height of the top-most row in the user details in the user search modal */
+}
+
+.search-results-modal-component .profile-picture-thumbnail-col {
+    padding-right: 0;
+}
+
+/* CSS for the matched user's full name */
+.search-results-modal-component .full-name-col {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Remove the default link colors for the full name */
+.search-results-modal-component .full-name-link {
+    text-decoration: none;
+    color: rgb(33, 37, 41);
+}
+
+.search-results-modal-component .role-row {
+    height: 25%; /* Set the height of the row the role is on in the user search modal */
+    font-style: italic; /* Make the role italicized to make it more visible */
+}
+
+/* =============== SEARCH RESULTS MODAL END ================== */
+
+/* =============== FOOTER START ============== */
+.footer-component * {
+    font-size: 20px;
+    color: white; /* text color */
+}
+
+.footer-component {
+    background-color: #231161;
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+    height: 50px;
+
+    /* makes the footer stay at the bottom of the page */
+    position: absolute; 
+    bottom: 0;
+}
+
+.footer-component .footer-link {
+    color: #e7e7ec; /* color of the links */
+}
+
+.footer-component .footer-link:hover {
+    color: #70b7ff; /* links will change to this color on hover */
+    cursor: pointer;
+}
+
+.footer-component .footer-logo {
+    /* Make the logo more visible on our footer */
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
+}
+
+/* =============== FOOTER END ================ */ 

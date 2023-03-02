@@ -1,0 +1,40 @@
+.create-thread-page .helpful-links-col {
+    width: 25vw;
+    padding: 2rem;
+    margin-left: 1.5rem;
+}
+
+.create-thread-page .form-col {
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.create-thread-page .form-div {
+    background-color: white;
+    width: 55vw;
+
+    border: 1px black solid;
+    border-radius: 10px;
+
+    padding: 1.5rem 3rem 3rem 3rem;
+    margin-bottom: 2rem;
+}
+
+.create-thread-page .create-thread-header {
+    text-align: center;
+}
+
+.create-thread-page .category-label {
+    padding-right: 0;
+}
+
+.create-thread-page .category-field {
+    width: 14rem;
+}
+
+.create-thread-page .create-button {
+    display: block;
+    height: 2.7rem;
+    margin: 2rem auto 0 auto;
+    width: 6rem;
+}

@@ -1,0 +1,38 @@
+/* Centers the element in the page. */
+.contact-us-page * {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-us-page {
+    background-color: white;
+    width: 65vw;
+    min-height: 75vh;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 2rem auto 1rem auto;
+    padding: 10px 50px 15px 50px;
+}
+
+.contact-us-page .page-description {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.contact-us-page .contact-form {
+    width: 95%;
+    margin-top: 1%;
+}
+
+.contact-us-page .input-fields {
+    border: 1px solid black;
+}
+
+.contact-us-page .submit-button {
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    height: 2.6rem;
+    width: 6.5rem;
+}

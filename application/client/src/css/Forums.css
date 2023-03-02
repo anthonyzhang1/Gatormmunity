@@ -1,0 +1,90 @@
+/* Contains the styling for both the Gatormmunity Forums and Group Forums pages, and its components.
+ * They share an identical appearance. */
+
+.forums-page {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    min-height: 85vh;
+    min-width: fit-content;
+    width: 85vw;
+
+    margin: 1rem auto 1rem auto;
+    padding: 0.5rem 2rem 1rem 2rem;
+}
+
+.forums-page .category-sort-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2vw;
+    
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.forums-page .category-filter-group,
+.forums-page .sort-options-group {
+    display: flex;
+    align-items: center;
+}
+
+.forums-page .form-select {
+    min-width: fit-content;
+    width: 12rem;
+    margin-left: 15px;
+}
+
+.forums-page .create-thread-button {
+    height: 2.5rem;
+    width: 10rem;
+}
+
+.forums-page .no-threads-message {
+    text-align: center;
+}
+
+.forum-thread-row-component {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    min-width: min-content;
+    max-width: 100%;
+
+    margin: 0px 2vw 10px 2vw;
+    padding: 15px 40px 10px 40px;
+}
+
+.forum-thread-row-component:hover {
+    cursor: pointer;
+    background-color: rgb(245, 245, 248);
+}
+
+.forum-thread-row-component .title {
+    margin-bottom: 0.75rem;
+    font-weight: bold;
+}
+
+.forum-thread-row-component .bottom-div,
+.forum-thread-row-component .bottom-div * {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 0;
+    margin: 0;
+}
+
+.forum-thread-row-component .bottom-div {
+    margin-bottom: 0.5rem;
+    gap: 4vw;
+    white-space: nowrap;
+}
+
+.forum-thread-row-component .thread-date {
+    margin-right: 2vw;
+}
+
+.forum-thread-row-component .num-posts {
+    margin-left: 10px;
+}

@@ -1,0 +1,22 @@
+.page-not-found-page {
+    text-align: center;
+    width: 600px;
+    margin: 22.5vh auto;
+    background-color: white;
+    padding: 20px 40px 50px 40px;
+    
+    border: 1px black solid;
+}
+
+.page-not-found-page .page-title {
+    font-weight: bold;
+}
+
+.page-not-found-page .logo:hover {
+    cursor: pointer; 
+}
+
+.page-not-found-page .home-button {
+    display: block;
+    margin: 30px auto auto auto;
+}

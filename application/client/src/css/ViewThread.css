@@ -1,0 +1,109 @@
+/* Contains the styling for the View Thread page and its Post row component. */
+
+.view-thread-page {
+    padding: 20px 2vw 10px 2vw;
+}
+
+.view-thread-page .thread-links {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.view-thread-page .back-link {
+    text-decoration: none;
+}
+
+.view-thread-page .delete-thread {
+    float: right;
+    color: red;
+}
+
+.view-thread-page .delete-thread:hover {
+    cursor: pointer;
+    color: rgb(182, 0, 0);
+}
+
+.view-thread-page .page-title {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.view-thread-page .make-post-form {
+    padding-top: 10px;
+}
+
+.view-thread-page .post-button {
+    display: block;
+    width: 10rem;
+    height: 3.5rem;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: auto;
+}
+
+.forum-post-row-comp {
+    background-color: white;
+    min-width: min-content;
+    
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px 0 5px 0;
+    padding: 15px 1vw 0px 1vw;
+}
+
+.forum-post-row-comp .top-part {
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+}
+
+.forum-post-row-comp .author-thumbnail-name {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    cursor: pointer;
+    gap: 20px;
+}
+
+.forum-post-row-comp .author-name {
+    font-weight: bold;
+}
+
+.forum-post-row-comp .top-right-div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-left: auto;
+    gap: 2vw;   
+}
+
+.forum-post-row-comp .delete-post {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+.forum-post-row-comp .delete-post:hover {
+    cursor: pointer;
+    color: rgb(182, 0, 0);
+}
+
+.forum-post-row-comp .post-body {
+    margin-top: 10px;
+    white-space: pre-line;
+    overflow-wrap: anywhere;
+}
+
+.forum-post-row-comp .post-thumbnail-filename {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow-wrap: break-word;
+
+    margin: 15px 0px 15px 0px;
+    gap: 20px;
+}
+
+.forum-post-row-comp .post-thumbnail:hover {
+    cursor: pointer;
+}

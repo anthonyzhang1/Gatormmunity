@@ -1,0 +1,70 @@
+/* Styles the create listing, create thread, create group thread, and create group page.
+ * They all share a similar format. */
+
+.create-listing-page .helpful-links-col,
+.create-thread-page .helpful-links-col, 
+.create-group-page .helpful-links-col {
+    width: 25vw;
+    padding: 2rem;
+    margin-left: 1.5rem;
+}
+
+.create-listing-page .form-col,
+.create-thread-page .form-col,
+.create-group-page .form-col {
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+}
+
+/* The form container in the right column. */
+.create-listing-page .form-div,
+.create-thread-page .form-div,
+.create-group-page .form-div { 
+    background-color: white;
+    width: 50vw;
+    border: 1px black solid;
+    border-radius: 10px;
+
+    padding: 1.5rem 3rem 3rem 3rem;
+    margin-bottom: 2rem;
+} .create-thread-page .form-div {
+    width: 55vw;
+}
+
+.create-listing-page .create-listing-header,
+.create-thread-page .create-thread-header,
+.create-group-page .create-group-header {
+    text-align: center;
+}
+
+/* Keeps the text label close to its input field. */
+.create-listing-page .price-label,
+.create-listing-page .category-label,
+.create-thread-page .category-label {
+    padding-right: 0;
+}
+
+.create-listing-page .price-field-col {
+    padding-left: 10px;
+}
+
+.create-listing-page .price-field {
+    width: 9rem;
+}
+ 
+.create-thread-page .category-field {
+    width: 10rem;
+} .create-listing-page .category-field {
+    width: 12rem;
+}
+
+.create-listing-page .create-button,
+.create-thread-page .create-button,
+.create-group-page .create-button {
+    display: block;
+    margin: 2.5rem auto 0 auto; 
+    height: 2.5rem;
+    width: 6.5rem;
+} .create-listing-page .create-button {
+    margin-top: 2rem;
+}

@@ -1,0 +1,83 @@
+/** Contains CSS that affects the marketplace page. */
+
+.search-page {
+    background-color: white;
+}
+
+.search-page .search-filters-col {
+    min-height: 90.5vh;
+    width: 17vw;
+    padding: 1rem;
+    border-right: 1px solid black;
+}
+
+.search-page .filters-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.search-page .search-button {
+    display: block;
+    margin: auto;
+    width: 100%;
+    font-size: 18px;
+}
+
+.search-page .search-users-button,
+.search-page .search-listings-button {
+    margin-bottom: 9vh;
+}
+
+.search-page .max-price {
+    width: 50%;
+}
+
+.search-page .results-header {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.search-page .search-message {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.search-page .listings {
+    margin-left: 2vw;
+}
+
+.search-page .listing-card {
+    text-align: center;
+}
+
+.searched-user-row-component {
+    border: 1px solid black;
+    border-radius: 10px;
+
+    margin: 0 40px 5px 40px;
+    padding: 15px 10px 10px 15px;
+}
+
+.searched-user-row-component:hover {
+    cursor: pointer;
+    background-color: rgb(245, 245, 248);
+}
+
+.searched-user-row-component .profile-picture-thumbnail-col {
+    padding: 0;
+}
+
+.searched-user-row-component .profile-picture-thumbnail {
+    margin-right: 10px;
+}
+
+.searched-user-row-component .full-name {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.searched-user-row-component .role {
+    font-style: italic;
+    margin-bottom: 0;
+}
