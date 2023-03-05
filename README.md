@@ -26,5 +26,3 @@ Gatormmunity was created for my university's Software Engineering course in Fall
 \
 The `Milestones` folder holds our prototypes and the reports/writeups we wrote documenting our design, drafts, plans, progress, etc. \
 The `application` folder is where our source code is. However, the server credentials and configuration files are hidden from the public.
-
-#### Gatormmunity cannot be run locally because of the missing credentials and configuration files, so no installation/setup instructions are provided. Specifically, the React front end will work, but the Express back end and MySQL database will not.
